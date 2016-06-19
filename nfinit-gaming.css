@@ -27,10 +27,8 @@ body {
 	background: #4d4d4d;
 	height: 60px;
 	width: auto;
-	font-family: "Century Gothic", Verdana, Geneva, sans-serif;
+	font-family: Exo;
 	color: #fff;
-	font-size:16px;
-
 }
 
 #nav a {
@@ -39,17 +37,41 @@ body {
 	display: inline;
 	float: left;
 	padding-top: 5px;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
 	padding-bottom: 5px;
 	text-align: left;
 	color: #ff8400;
 	text-decoration: none;
-	line-height: 43px;
+	line-height: 50px;
 	text-shadow: 0 0 5px #000000;
+	font-size:18px;
 }
 
 #nav a:hover {
+	text-decoration:none;
+	background:#404040;
+}
+
+#nav b {
+	height: 50px;
+	position: relative;
+	display: inline;
+	float: right;
+	padding-top: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+	text-align: center;
+	color: #ff8400;
+	text-decoration: none;
+	line-height: 50px;
+	font-weight: normal;
+	font-size:12px;
+	font-family: ArchitectsDaughter;
+}
+
+#nav b:hover {
 	text-decoration:none;
 	background:#404040;
 }
