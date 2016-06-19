@@ -79,20 +79,20 @@ body {
 #discord {
 	background-color: #333333;
 	width: 1180px;
-	height: 952px;
+	height: 808px;
 	margin-left:auto;
 	margin-right:auto;
 }
 
 #nfinitDiscord {
-	margin-top: 126px;
+	margin-top: 50px;
 	margin-left: 126px;
 	margin-right: auto;
 	float: left;
 }
 
 #mmdDiscord {
-	margin-top: 126px;
+	margin-top: 50px;
 	margin-left: auto;
 	margin-right: 126px;
 	float:right;
