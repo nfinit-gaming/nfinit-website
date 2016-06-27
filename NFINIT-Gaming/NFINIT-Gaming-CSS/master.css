@@ -55,6 +55,18 @@ body {
 	padding-bottom:40px;
 }
 
+.LoginBody {
+	width:auto;
+	height:auto;
+	padding-bottom:40px;
+}
+
+.UpdateAccountBody {
+	width:auto;
+	height:auto;
+	padding-bottom:40px;	
+}
+
 .DicordBody {
 	width:auto;
 	height:700px;

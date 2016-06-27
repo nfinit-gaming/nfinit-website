@@ -8,15 +8,17 @@
 		$Email = $_POST['Email'];
 		$Password = $_POST['Password'];
 		
+		$StorePassword = password_hash($Password, PASSWORD_BCRYPT, array('cost' => 12));
+		
 		$query = $sql = $con->query("SELECT * FROM user WHERE UName='$UName'");
 		$query2 = $sql = $con->query("SELECT * FROM user WHERE Email='$Email'");
 		if(mysqli_num_rows($query) > 0) {
-			Header('Location: register_usernameexist.php');
+			$nameinuse = "Yes";
 			}else{
 				if(mysqli_num_rows($query2) > 0) {
-				Header('Location: register_emailexist.php');
+					$emailinuse = "Yes";
 					}else{
-						$sql = $con->query("INSERT INTO user (UName, Email, Password)Values('{$UName}', '{$Email}', '{$Password}')");
+						$sql = $con->query("INSERT INTO user (UName, Email, Password)Values('{$UName}', '{$Email}', '{$StorePassword}')");
 						header('Location: login.php');
 			}
 		}
@@ -48,6 +50,12 @@
         	</div>
          <div class="RegisterBody">
            <form action="" id="RegisterForm" name="RegisterForm" method="post">
+            <?php if(isset($nameinuse) == "Yes"){ ?>
+         		<div class="FormElement">Username already in use.</div>
+         	<?php } ?> 
+            <?php if(isset($emailinuse) == "Yes"){ ?>
+         		<div class="FormElement">Email already in use.</div>
+         	<?php } ?>  
            		<div class="FormElement">
            		 	<input name="User_Name" type="text" required="required" class="TField" id="User_Name" placeholder="Username">
            		</div>
