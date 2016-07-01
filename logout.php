@@ -13,7 +13,7 @@ header('Location: index.php')
 <link href="NFINIT-Gaming/NFINIT-Gaming-CSS/menu.css" rel="stylesheet" type="text/css">
 <link href="webfonts/ArchitectsDaughter/stylesheet.css" rel="stylesheet" type="text/css">
 <meta charset="utf-8">
-<title>logout</title>
+<title>Logout</title>
 </head>
 
 <body>

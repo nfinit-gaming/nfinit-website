@@ -12,7 +12,7 @@
 
 <body>
 	<div class="Container">
-    	 <div class="Header"><span style="color:#f7a27b;">NFINIT</span> <span style="color:#d17c22">Gaming</span></div>
+    	 <div class="Header"><span style="color:rgb(108, 17, 248);">NFINIT</span> <span style="color:rgb(178, 33, 203);">Gaming</span></div>
 			<?php if(isset($_SESSION["UserID"])){ ?>	
          	<div class="Menu">
                 <div id="nav"> 

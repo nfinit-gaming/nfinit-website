@@ -1,0 +1,101 @@
+@import url("../../webfonts/ArchitectsDaughter/stylesheet.css");
+.cat_links {
+	display: block;
+	padding: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 1px solid #000000;
+	background-color: #4d4d4d;
+	color: #fff;
+	margin-top: 6px;
+	margin-right: 6px;
+	margin-left: 6px;
+	margin-bottom: 6px;
+	height: 30px;
+	font-size: 20px;
+	font-style: normal;
+	text-align: left;
+	font-family: anonymous-pro;
+	font-weight: 400;
+	text-decoration:none;
+}
+
+.cat_links:hover {
+	background-color: #404040;
+}
+
+.link {
+	color: #fff;
+	float: none;
+	clear: both;
+	text-decoration:none;
+}
+
+#forum_create_topic {
+	font-size: 16px;
+	margin-top: 6px;
+	margin-right: 6px;
+	margin-bottom: 6px;
+	margin-left: 6px;
+}
+
+.label {
+	font-weight: bold;
+	color: #B227F8;
+	font-size: 20px;
+}
+
+.topictitle {
+	background-color:#dddddd;
+	width:982px;
+}
+
+.textarea {
+	width:982px;
+	background-color:#dddddd;
+	resize: none;
+}
+
+.textarea2 {
+	background-color:#dddddd;
+	resize: none;
+	width:982px;
+}
+
+.fbutton {
+	width: 200px;
+	height: 50px;
+	border: 0px solid;
+	background-color: #4d4d4d;
+	color: #FFF;
+	font-size: 24px;
+	text-align:center;
+	float:right;
+}
+
+.fbutton:hover { 
+	background-color:#404040; 
+	color:#FFF;
+}
+
+.top_links {
+	color: #fff;
+	font-size: 18px;
+	text-decoration:none;
+}
+
+.top_links:hover { 
+	color:#FFF;
+}
+
+.topic {
+	height:auto;
+	padding-bottom:15 px
+	
+}
+#forum_content {
+	height:inherit topic;
+}
+.post_info {
+	color:rgb(102, 102, 102);
+}

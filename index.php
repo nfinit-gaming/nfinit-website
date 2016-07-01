@@ -12,7 +12,7 @@
 
 <body>
 	<div class="Container">
-    	 <div class="Header"><span style="color:#f7a27b;">NFINIT</span> <span style="color:#d17c22">Gaming</span></div>
+    	 <div class="Header"><span style="color:rgb(108, 17, 248);">NFINIT</span> <span style="color:rgb(178, 39, 248);">Gaming</span></div>
          	<?php if(isset($_SESSION["UserID"])){ ?>	
          	<div class="Menu">
                 <div id="nav"> 
@@ -44,7 +44,7 @@
     			</div>
         		<div class="content_container">
             		<div class="content_header">
-            			<span style="color:#D5AC00;">FTB Inventions</span>
+            			<span style="color:#B164F5;">FTB Inventions</span>
             		</div>
         			<div class="content">
             			<div style="font-size:11px; font-family:Verdana, Geneva, sans-serif; margin-top:-13px;margin-bottom:10px"><span style="color: rgb(102, 102, 102);"> <b>Jun. 19, 2016, 10:14pm</b> by </span><span style="color: rgb(50, 50, 255);"> Kasparsu </span> <br> <br>
